@@ -35,3 +35,12 @@
 	color: #0F0;
 
 }
+
+body {
+	padding-top: 50px;
+	z-index: 0;
+}
+
+.navbar-dark {
+	background-color: #512DA8;
+}
