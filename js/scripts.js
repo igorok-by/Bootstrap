@@ -1,14 +1,14 @@
-$(document).ready( () => {
-    $('#buttonLoginModal').click( () => {
+$(document).ready( function() {
+    $('#buttonLoginModal').click( function() {
         $('#loginModal').modal('toggle');
     });
 
-    $('#buttonRegistrationModal').click( () => {
+    $('#buttonRegistrationModal').click( function() {
         $('#registrationModal').modal('toggle');
     });
 
     $('#mycarousel').carousel({ interval: 6000 });
-    $('#carouselButton').click( () => {
+    $('#carouselButton').click( function() {
         if ($('#carouselButton').children('span').hasClass('fa-pause')) {
             $('#mycarousel').carousel('pause');
             $('#carouselButton').children('span').removeClass('fa-pause');
